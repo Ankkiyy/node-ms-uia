@@ -1,7 +1,13 @@
 {
   "name": "node-ms-uia",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "This is pure JS library written to support Microsoft's UI Automation library because that doesn't exist when i need it the most for my project in Electron JS.",
   "author": "Ankkiyy",
-  "license": "ISC"
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
